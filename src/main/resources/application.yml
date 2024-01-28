@@ -5,7 +5,7 @@ spring:
     name: ws-task
   datasource:
     username: root
-    password: ruijie123
+    password: 1234
     url: jdbc:mysql://localhost/ws_task?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
     driver-class-name: com.mysql.jdbc.Driver
   cloud:
