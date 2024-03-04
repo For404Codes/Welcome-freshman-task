@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.righteous.innovate.task.dao.StudentTasksDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.righteous.innovate.task.entity.StudentTasksEntity" id="studentTasksMap">
+        <result property="recordId" column="record_id"/>
+        <result property="studentId" column="student_id"/>
+        <result property="taskId" column="task_id"/>
+        <result property="completionStatus" column="completion_status"/>
+        <result property="createTime" column="create_time"/>
+        <result property="createdUser" column="created_user"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="updatedUser" column="updated_user"/>
+        <result property="isDelete" column="is_delete"/>
+    </resultMap>
+
+
+</mapper>
